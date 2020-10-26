@@ -1,0 +1,41 @@
+---
+title: "interactivity_lecture"
+author: "mggn"
+date: "10/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Website is a collection of pages written in HTML that is hosted on a server and is retrievable
+Let's make a website to disseminate a project!
+Lol Jeff is talking about dial up
+We don't need to know HTML because we use rmarkdown
+I guess we can write a website using R
+Knowing RMD is half the battle
+  -need to host it for other people to see
+  -repo = website
+  -aka github allows you to host websites for free
+Workflow is similar to working with our rmd, but we need to tell github that
+the repo is a website
+github.io
+landing page HAS TO BE CALLED index.Rmd
+The class has a 
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
